@@ -1,1 +1,26 @@
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #111;
+    overflow: hidden;
+}
+
+#game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: contain;
+}
