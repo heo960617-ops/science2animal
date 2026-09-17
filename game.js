@@ -3,23 +3,23 @@ const player = document.getElementById("player");
 let x = 50;
 let y = 75;
 
-const speed = 0.5;
+const speed = 1;
 
 document.addEventListener("keydown", function(event) {
 
-    if (event.key === "ArrowUp" || event.key === "w") {
+    if (event.key === "ArrowUp" || event.key.toLowerCase() === "w") {
         y -= speed;
     }
 
-    if (event.key === "ArrowDown" || event.key === "s") {
+    if (event.key === "ArrowDown" || event.key.toLowerCase() === "s") {
         y += speed;
     }
 
-    if (event.key === "ArrowLeft" || event.key === "a") {
+    if (event.key === "ArrowLeft" || event.key.toLowerCase() === "a") {
         x -= speed;
     }
 
-    if (event.key === "ArrowRight" || event.key === "d") {
+    if (event.key === "ArrowRight" || event.key.toLowerCase() === "d") {
         x += speed;
     }
 
