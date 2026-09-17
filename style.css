@@ -24,3 +24,19 @@ body {
     max-height: 100vh;
     object-fit: contain;
 }
+
+
+#player {
+    position: absolute;
+
+    font-size: 32px;
+
+    left: 50%;
+    top: 75%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 10;
+
+    user-select: none;
+}
